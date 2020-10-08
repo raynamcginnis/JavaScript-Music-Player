@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/43a8fca6a3.js" crossorigin="anonymous"></script>
 
     <title>Music Player</title>
@@ -21,7 +21,7 @@
     <div id="controls">
         <i class="far fa-play-circle fa-5x" onclick="playAudio()"></i>
         <i class="far fa-pause-circle fa-5x" onclick="pauseAudio()"></i>
-        <p>Volume</p>
+        <p id="volume">Volume</p>
         <i class="fas fa-volume-down"></i>
 
         <input type="range" id="volumeSlider" min="0" max="1" step="0.01">

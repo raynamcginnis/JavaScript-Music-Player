@@ -1,5 +1,11 @@
+$primary-color: black;
+$secondary-color: #454545;
+$tertiary-color: #e7e7e7;
+$white-color: #fff;
+
+
 body {
-    background: radial-gradient(#000, #454545);
+    background-color: $primary-color;
     font-size: 1.2 em;
     width: 50%;
     margin: 20px auto; 
@@ -9,7 +15,7 @@ body {
 }
 
 #songList {
-    background: lightgray;;
+    background: $tertiary-color;
     border-radius: 10px;
     text-align: left;
 }
@@ -23,18 +29,18 @@ li:hover, i:hover {
 }
 
 #controls {
-    border: 1 px darkgray solid;
+    border: 1 px $secondary-color solid;
     border-radius: 10px;
-    background-color: lightgray;
+    background-color: $tertiary-color;
     padding: 1.5em;
 }
 
 i {
-    color: white;
+    color: $secondary-color;
 }
 
 h4 {
-    color: white;
+    color: $white-color;
 }
 
 progress {
@@ -44,8 +50,13 @@ progress {
 }
 
 .white {
-    color: white;
+    color: $white-color;
 }
 
-a, p
-{ color: white;}
+a, p {
+   color: $white-color;
+}
+
+#volume {
+    color: $secondary-color
+}

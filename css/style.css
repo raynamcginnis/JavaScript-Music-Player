@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  font-size: 1.2 em;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  min-height: 50vh; }
+
+#songList {
+  background: #e7e7e7;
+  border-radius: 10px;
+  text-align: left; }
+
+li {
+  padding: 20px; }
+
+li:hover, i:hover {
+  cursor: pointer; }
+
+#controls {
+  border: 1 px #454545 solid;
+  border-radius: 10px;
+  background-color: #e7e7e7;
+  padding: 1.5em; }
+
+i {
+  color: #454545; }
+
+h4 {
+  color: #fff; }
+
+progress {
+  width: 80%;
+  margin: 10px; }
+
+.white {
+  color: #fff; }
+
+a, p {
+  color: #fff; }
+
+#volume {
+  color: #454545; }

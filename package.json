@@ -1,0 +1,19 @@
+{
+  "name": "javascript-music-player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "watch": "node-sass -o css scss/style.scss -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raynamcginnis/JavaScript-Music-Player.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raynamcginnis/JavaScript-Music-Player/issues"
+  },
+  "homepage": "https://github.com/raynamcginnis/JavaScript-Music-Player#readme"
+}
